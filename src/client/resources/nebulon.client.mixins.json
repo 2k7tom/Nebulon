@@ -1,0 +1,41 @@
+{
+	"required": true,
+	"package": "com.nebulon.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"AbstractContainerScreenAccessor",
+		"AbstractRecipeBookScreenMixin",
+		"EffectsInInventoryMixin",
+		"GameRendererMixin",
+		"ScreenEffectRendererMixin",
+		"ItemInHandRendererMixin",
+		"LivingEntitySwingMixin",
+		"ClientLevelMixin",
+		"ClientPacketListenerMixin",
+		"EntityRendererMixin",
+		"FontTextureMixin",
+		"GlyphRenderStateMixin",
+		"GuiGraphicsExtractorMixin",
+		"InventoryScreenMixin",
+		"ItemStackMixin",
+		"LightmapRenderStateExtractorMixin",
+		"LightningBoltRendererMixin",
+		"LocalPlayerMixin",
+		"MinecraftMixin",
+		"MouseHandlerMixin",
+		"MultiPlayerGameModeMixin",
+		"ParticleEngineMixin",
+		"ProtectItemScreenMixin",
+		"RarityHotbarMixin",
+		"RaritySlotMixin",
+		"RecipeBookComponentMixin",
+		"ScreenMixin",
+		"SlotMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
